@@ -1,6 +1,6 @@
 autopkg-recipes
 ===============
 
-Current space for my AutoPkg recipes. I am asking to have my recipes moved to the [AutoPkg project](https://github.com/autopkg/autopkg), so they will be removed from here once that happens.
+My AutoPkg recipes have moved! They are now available at [jazzace-recipes](https://github.com/autopkg/jazzace-recipes) within the [AutoPkg project](https://github.com/autopkg/autopkg). This makes them available with an 'autopkg search' on the command line. They focus mostly on feeding DeployStudio. To that end, I use a .ds suffix for such recipes.
 
-If you use DeployStudio and you would like to have AutoPkg feed your Packages repo in DS with the latest versions, use my recipes with the .ds tag or make your own by using my Template.ds to leverage existing .pkg recipes as parents.
+Anything still lingering here is not production-ready; this is now a scratch space.
