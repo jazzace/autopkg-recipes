@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Recipe chain that tests how Input keys work. This is the download recipe.</string>
+	<key>Identifier</key>
+	<string>com.github.jazzace.download.inputtest</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>1</string>
+	</dict>
+	<key>MiniumumVersion</key>
+	<string>1.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>StopProcessingIf</string>
+			<key>Arguments</key>
+			<dict>
+				<key>predicate</key>
+				<string>NAME == "4"</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Recipe chain that tests how Input keys work. This is the pkg recipe whose parent is the download recipe.
+It adds no process steps.</string>
+	<key>Identifier</key>
+	<string>com.github.jazzace.pkg.inputtest</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>2</string>
+	</dict>
+	<key>MiniumumVersion</key>
+	<string>1.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.jazzace.download.inputtest</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Recipe chain that tests how Input keys work. This is the ds recipe whose parent is the pkg recipe
+and grandparent (!) is the download recipe. It adds no process steps and does not copy anything.</string>
+	<key>Identifier</key>
+	<string>com.github.jazzace.ds.inputtest</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>3</string>
+        <key>DS_PKGS_PATH</key>
+        <string>/Volumes/DSServer/Users/Shared/Deploy/Packages</string>
+        <key>DS_NAME</key>
+        <string>%NAME%</string>
+	</dict>
+	<key>MiniumumVersion</key>
+	<string>1.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.jazzace.pkg.inputtest</string>
+</dict>
+</plist>
